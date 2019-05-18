@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_save"
+          android:icon="@drawable/ic_menu_save"
+          android:alphabeticShortcut='s'
+          android:title="@string/menu_save"
+          android:showAsAction="always" />
+
+    <item android:id="@+id/menu_revert"
+          android:icon="@drawable/ic_menu_revert"
+          android:title="@string/menu_revert" />
+
+    <item android:id="@+id/menu_delete"
+          android:icon="@drawable/ic_menu_delete"
+          android:title="@string/menu_delete"
+          android:showAsAction="always" />
+
+    <item android:id="@+id/menu_output"
+          android:title="@string/menu_output" />
+
+    <item android:id="@+id/menu_color"
+        android:title="@string/menu_color"
+        android:icon="@drawable/ic_menu_color"
+        android:showAsAction="always"/>
+
+    <!--定义菜单项-->
+    <item
+        android:id="@+id/menu_font_size"
+        android:title="@string/menu_font_size">
+        <!--子菜单-->
+        <menu>
+            <!--定义多个菜单项-->
+            <item
+                android:id="@+id/font_10"
+                android:title="@string/font_10"/>
+            <item
+                android:id="@+id/font_15"
+                android:title="@string/font_15"/>
+            <item
+                android:id="@+id/font_20"
+                android:title="@string/font_20"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menu_font_color"
+        android:title="@string/menu_font_color" >
+        <menu>
+            <item
+                android:id="@+id/black_font"
+                android:title="@string/black_font"/>
+            <item
+                android:id="@+id/red_font"
+                android:title="@string/red_font" />
+            <item
+                android:id="@+id/blue_font"
+                android:title="@string/blue_font"/>
+        </menu>
+    </item>
+</menu>
