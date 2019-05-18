@@ -193,7 +193,7 @@ public class NoteSearch extends ListActivity  implements SearchView.OnQueryTextL
     </activity>
 ```
 运行效果：<br>
-搜索界面：<br>
+搜索页面：<br>
 ![](/screenshot/search1.png)<br>
 搜索结果：<br>
 ![](/screenshot/search.png)<br>
@@ -267,7 +267,7 @@ android:theme="@android:style/Theme.Holo.Light"
 ```
 运行效果：<br>
 菜单：<br>
-![](/scrreenshot/list_menu.png)<br>
+![](/screenshot/list_menu.png)<br>
 创建时间排序：<br>
 ![](/screenshot/sort.png)<br>
 修改时间排序：<br>
@@ -622,7 +622,7 @@ AndroidManifest.xml中定义颜色选择对话框.<br>
 编辑页面：<br>
 ![](/screenshot/background1.png)<br>
 主页面：<br>
-![](/screentshot/background2.gif)<br>
+![](/screenshot/background2.png)<br>
 
 
 - 导出笔记
@@ -795,7 +795,7 @@ public class OutputText extends Activity {
 可修改文件名，点击确认导出：<br>
 ![](/screenshot/output.png)<br>
 保存成功，弹出提示：<br>
-![](/screenshot/output_succcess.png)<br>
+![](/screenshot/output_success.png)<br>
 查看文件：<br>
 ![](/screenshot/phone_file.png)<br>
 点击刚导出的文件，用阅读器打开查看内容：<br>
